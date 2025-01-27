@@ -16,9 +16,14 @@ def masodik_feladat(szam):
 megyen = True
 
 while megyen:
-    szam = input('Adjon meg egy számot: ')
-    masodik_feladat(szam)
-    if szam == '':
+    betet = input('Adjon meg egy számot: ')
+    if betet == '':
         megyen = False
+    else:
+        szam = float(betet)
+        masodik_feladat(szam)   
 
-masodik_feladat(szam)   
+masodik_feladat(szam)
+
+
+
