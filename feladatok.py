@@ -17,6 +17,7 @@ megyen = True
 
 while megyen:
     szam = input('Adjon meg egy számot: ')
+    masodik_feladat(szam)
     if szam == '':
         megyen = False
 
